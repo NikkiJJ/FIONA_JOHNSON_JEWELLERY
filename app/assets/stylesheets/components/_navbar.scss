@@ -1,7 +1,37 @@
 .custom-navbar {
   height: 150px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .custom-navbar .navbar-brand {
   font-size: 50px;
+}
+
+.nav-contents {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+.nav-left {
+  align-self: center;
+}
+.nav-middle {
+  align-self: flex-end;
+}
+.nav-right{
+  align-self: flex-start;
+}
+
+.fa-basket-shopping {
+  margin: 10px 10px 10px 60px;
 }
