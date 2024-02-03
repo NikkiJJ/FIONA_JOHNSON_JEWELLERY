@@ -1,11 +1,17 @@
+.body {
+  display: flex;
+  justify-content: center;
+}
+
 .img-container {
-  width: 75%;
+  width: 73%;
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
 }
 
-.image-container img {
-  width: 100%;
-  border-radius: inherit;
+.home-img {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 900px;
+  border-radius: 3px;
 }
